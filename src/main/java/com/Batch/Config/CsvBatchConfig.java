@@ -27,7 +27,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 @EnableBatchProcessing
 public class SpringBatchConfig {
 
-    private final JobBuilderFactory jobBuilderFactory;
+
     private final StepBuilderFactory stepBuilderFactory;
     private final CustomerRepository customerRepository;
 
